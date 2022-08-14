@@ -1,0 +1,15 @@
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\bin\Debug\net6.0\Constructors.exe
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\bin\Debug\net6.0\Constructors.deps.json
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\bin\Debug\net6.0\Constructors.runtimeconfig.json
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\bin\Debug\net6.0\Constructors.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\bin\Debug\net6.0\Constructors.pdb
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.csproj.AssemblyReference.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.AssemblyInfoInputs.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.AssemblyInfo.cs
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\refint\Constructors.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.pdb
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\Constructors.genruntimeconfig.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Constructors\obj\Debug\net6.0\ref\Constructors.dll
