@@ -9,21 +9,24 @@ namespace Course
 
 
         //Construtor padrão
-        public Produto(){}
-        public Produto(string nome, double preco, int quantidade)
-        {
-            Nome = nome;
-            Preco = preco;
+        public Produto(){ Quantidade = 0; }
+
+        // Construtor e this.
+        public Produto(string nome, double preco, int quantidade) : this(nome, preco)
+        {            
             Quantidade = quantidade;
         }
 
-        // sobreCarga
-        public Produto(string nome, double preco)
-        {
-            Nome = nome;
-            Preco = preco;
+        // sobreCarga e this
+        public Produto(string Nome, double Preco)
+        {   
+            this.Nome = Nome;
+            this.Preco = Preco;
+            
             //Quantidade = 0;
         }
+
+
 
         public double ValorTotalEmEstoque()
         {
