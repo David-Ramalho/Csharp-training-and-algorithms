@@ -17,6 +17,14 @@ namespace Course
 
             Produto p = new Produto(nome, preco, quantidade);
 
+            /*Produto p = new Produto
+            {
+                Nome = nome,
+                Preco = preco,
+                Quantidade = quantidade
+            };
+            */
+
             Console.WriteLine("Dados do produto: " + p);
             Console.WriteLine();
             Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
