@@ -1,0 +1,15 @@
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\bin\Debug\net6.0\Conta_bancária.exe
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\bin\Debug\net6.0\Conta_bancária.deps.json
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\bin\Debug\net6.0\Conta_bancária.runtimeconfig.json
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\bin\Debug\net6.0\Conta_bancária.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\bin\Debug\net6.0\Conta_bancária.pdb
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.csproj.AssemblyReference.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.AssemblyInfoInputs.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.AssemblyInfo.cs
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.csproj.CoreCompileInputs.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\refint\Conta_bancária.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.pdb
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\Conta_bancária.genruntimeconfig.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Conta_bancária\obj\Debug\net6.0\ref\Conta_bancária.dll
