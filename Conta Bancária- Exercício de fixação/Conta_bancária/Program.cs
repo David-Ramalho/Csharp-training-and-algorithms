@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Conta_bancária;
+using System;
 using System.Globalization;
 using System.Threading;
 namespace Course
@@ -8,6 +9,8 @@ namespace Course
         static void Main(string[] args)
         {
             int i = -1;
+
+            Conta Cadastro= new Conta();
 
             //Menu principal
             while (i != 0)
@@ -26,6 +29,7 @@ namespace Course
                     Console.Clear(); 
                     Console.WriteLine("Welcome to the account bank program");
                     Console.WriteLine("Abrindo");
+                    Cadastro.AbrirConta();
                     Console.ReadKey();
                 }
                 else if (i == 2)
