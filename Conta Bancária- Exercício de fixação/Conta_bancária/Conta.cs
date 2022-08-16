@@ -11,8 +11,18 @@ namespace Conta_bancária
     {
         private string _nome;
         public int NumConta { get; private set; } = 0;        
-        public float Saldo { get; private set; }          
+        public float Saldo { get; private set; }
 
+
+        /*método get e set para Saldo, porém auto properties é usado!
+        public float Saldo1
+        {
+            get { return Saldo; }
+            set
+            {
+                Saldo = Saldo + value;
+            }
+        }*/
 
         public void AbrirConta()
         {
@@ -73,6 +83,8 @@ namespace Conta_bancária
                 if (valor != 0)
                 {
                     Saldo = Saldo + valor;
+                    //A expressão abaixo seria usada caso o metodo get e set fosse implementado.
+                   // Saldo1 = valor;
 
                 }
                 else
