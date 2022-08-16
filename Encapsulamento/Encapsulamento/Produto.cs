@@ -18,7 +18,8 @@ namespace Course
             _preco = preco;
         }
 
-        public string GetNome()
+        // encapsulamento, porém irei usar o método de properties
+       /* public string GetNome()
         {
             return _nome;
         }
@@ -28,6 +29,20 @@ namespace Course
             if(nome != null && nome.Length > 1)
             {
                 _nome = nome;
+            }
+        }
+       */
+
+        //properties
+        public string Nome
+        {
+            get { return _nome; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                {
+                    _nome = value;
+                }
             }
         }
 
