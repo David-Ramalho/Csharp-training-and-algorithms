@@ -1,0 +1,15 @@
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\bin\Debug\net6.0\Encapsulamento.exe
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\bin\Debug\net6.0\Encapsulamento.deps.json
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\bin\Debug\net6.0\Encapsulamento.runtimeconfig.json
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\bin\Debug\net6.0\Encapsulamento.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\bin\Debug\net6.0\Encapsulamento.pdb
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.csproj.AssemblyReference.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.AssemblyInfoInputs.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.AssemblyInfo.cs
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\refint\Encapsulamento.dll
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.pdb
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\Encapsulamento.genruntimeconfig.cache
+C:\Users\tavar\Documents\GITHuB\Construtores\Encapsulamento\Encapsulamento\obj\Debug\net6.0\ref\Encapsulamento.dll
