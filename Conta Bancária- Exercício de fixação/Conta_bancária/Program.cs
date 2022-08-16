@@ -39,6 +39,7 @@ namespace Course
                     Console.Clear();
                     Console.WriteLine("                  ***Welcome to the account bank program*** ");
                     Console.WriteLine("Sacando");
+                    Cadastro.Depositar();
                     Console.ReadKey();
                 }
                 else if (i == 3)

@@ -8,11 +8,11 @@ namespace Conta_bancária
 {
     internal class Conta
     {
-        public int NumConta { get; private set; }
+        public int NumConta { get; private set; } = 0;
         private string _nome;
         private float _saldo;
 
-
+        
         public void AbrirConta()
         {
             Console.Clear();
@@ -54,6 +54,31 @@ namespace Conta_bancária
 
         }
 
+        public void Depositar()
+        {
+            Console.Clear();
+            Console.WriteLine("                  ***Welcome to the account bank program*** ");
+            Console.WriteLine(" Qual o valor do deposito");
+            float valor = float.Parse(Console.ReadLine());
+
+            if (NumConta == 0)
+            {
+                Console.WriteLine("Conta inexistente");
+            }
+            else
+            {
+                if (valor != 0)
+                {
+                    _saldo = _saldo + valor;
+                    Console.WriteLine("Deposito realizado!\n Saldo atual: ", _saldo);
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.WriteLine("Valor inválido!!");
+                }
+            }
+        }
 
         //formatação
         public override string ToString()
