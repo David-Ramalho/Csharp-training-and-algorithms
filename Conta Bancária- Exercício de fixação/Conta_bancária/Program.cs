@@ -38,8 +38,7 @@ namespace Course
                 {
                     Console.Clear();
                     Console.WriteLine("                  ***Welcome to the account bank program*** ");
-                    Console.WriteLine("Sacando");
-                    Cadastro.Depositar();
+                    Console.WriteLine("Sacando");                    
                     Console.ReadKey();
                 }
                 else if (i == 3)
@@ -47,6 +46,14 @@ namespace Course
                     Console.Clear();
                     Console.WriteLine("                  ***Welcome to the account bank program*** ");
                     Console.WriteLine("Depositando");
+                    Cadastro.Depositar();
+                    if (Cadastro.Saldo != 0)
+                    {
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Deposito realizado!\nSaldo atual: ");                        
+                        Console.WriteLine(Cadastro.Saldo);
+                    }
+
                     Console.ReadKey();
                 }
                 else if (i == 0)
