@@ -16,13 +16,13 @@ namespace Conta_bancária
         public void AbrirConta()
         {
             Console.Clear();
-            Console.WriteLine("                  Welcome to the account bank program ");
+            Console.WriteLine("                  ***Welcome to the account bank program*** ");
             Console.WriteLine(" ");
 
             Console.WriteLine("Digite o nome completo por gentileza: ");
             _nome = Console.ReadLine();
             Console.WriteLine("Desejas depositar um valor inicial? 'sim' ou 'nao' ");
-            string Resposta= Console.ReadLine().ToLower();            
+            string Resposta = Console.ReadLine().ToLower();
             string positivo = "sim";
             string negativo = "nao";
 
@@ -30,7 +30,7 @@ namespace Conta_bancária
             {
                 Console.WriteLine("Valor positivo");
                 Console.WriteLine("Qual o valor do deposito?");
-                float valor= float.Parse(Console.ReadLine());
+                float valor = float.Parse(Console.ReadLine());
                 _saldo = valor;
 
             }
@@ -45,13 +45,26 @@ namespace Conta_bancária
                 Console.WriteLine("Valor incorreto! tente novamente");
             }
 
-            Console.WriteLine("Gerando número de conta! Um monento por gentileza");
+            Console.WriteLine("Gerando número de conta! Um momento por gentileza");
             Random numAleatorio = new Random();
-            NumConta=numAleatorio.Next();
+            NumConta = numAleatorio.Next();
             Thread.Sleep(5000);
-            Console.WriteLine("Número de conta: ",NumConta);
+
 
 
         }
+
+
+        //formatação
+        public override string ToString()
+        {
+            return
+            "Nome do titular: " + _nome +
+            " " +
+             "\nNúmero de conta: " + NumConta +
+             " " +
+             "\nValor despositado: " + _saldo;
+        }
+
     }
 }

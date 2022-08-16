@@ -26,23 +26,25 @@ namespace Course
                 //opções selecionadas do menú:
                 if (i == 1)
                 {
-                    Console.Clear(); 
-                    Console.WriteLine("Welcome to the account bank program");
+                    Console.Clear();
+                    Console.WriteLine("                  ***Welcome to the account bank program*** ");
                     Console.WriteLine("Abrindo");
-                    Cadastro.AbrirConta();
+                    Cadastro.AbrirConta(); 
+                    Console.Clear();
+                    Console.WriteLine(Cadastro);
                     Console.ReadKey();
                 }
                 else if (i == 2)
                 {
                     Console.Clear();
-                    Console.WriteLine("Welcome to the account bank program");
+                    Console.WriteLine("                  ***Welcome to the account bank program*** ");
                     Console.WriteLine("Sacando");
                     Console.ReadKey();
                 }
                 else if (i == 3)
                 {
                     Console.Clear();
-                    Console.WriteLine("Welcome to the account bank program");
+                    Console.WriteLine("                  ***Welcome to the account bank program*** ");
                     Console.WriteLine("Depositando");
                     Console.ReadKey();
                 }
