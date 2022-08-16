@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tavar\\Documents\\GITHuB\\Construtores\\Encapsulamento\\Conta_bancária\\Conta_bancária.csproj",
+      "projectUniqueName": "C:\\Users\\tavar\\Documents\\GITHuB\\Construtores\\Conta Bancária- Exercício de fixação\\Conta_bancária\\Conta_bancária.csproj",
       "projectName": "Conta_bancária",
-      "projectPath": "C:\\Users\\tavar\\Documents\\GITHuB\\Construtores\\Encapsulamento\\Conta_bancária\\Conta_bancária.csproj",
+      "projectPath": "C:\\Users\\tavar\\Documents\\GITHuB\\Construtores\\Conta Bancária- Exercício de fixação\\Conta_bancária\\Conta_bancária.csproj",
       "packagesPath": "C:\\Users\\tavar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tavar\\Documents\\GITHuB\\Construtores\\Encapsulamento\\Conta_bancária\\obj\\",
+      "outputPath": "C:\\Users\\tavar\\Documents\\GITHuB\\Construtores\\Conta Bancária- Exercício de fixação\\Conta_bancária\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tavar\\AppData\\Roaming\\NuGet\\NuGet.Config",
