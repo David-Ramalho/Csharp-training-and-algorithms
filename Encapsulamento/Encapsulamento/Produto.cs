@@ -25,7 +25,7 @@ namespace Course
 
         public void SetNome(string nome)
         {
-            if(nome.Length >1 )
+            if(nome != null && nome.Length > 1)
             {
                 _nome = nome;
             }
