@@ -23,6 +23,14 @@ namespace Course
             return _nome;
         }
 
+        public void SetNome(string nome)
+        {
+            if(nome.Length >1 )
+            {
+                _nome = nome;
+            }
+        }
+
         
 
         public double ValorTotalEmEstoque()
@@ -37,8 +45,10 @@ namespace Course
             }
             else
             {
-                Console.WriteLine("Quantidade inválida");                
-                
+                Console.WriteLine("Quantidade inválida");
+                Console.ReadKey();
+
+
             }
 
         }
@@ -52,6 +62,7 @@ namespace Course
             else
             {
                 Console.WriteLine("Quantidade inválida");
+                Console.ReadKey();
 
             }
 
