@@ -10,7 +10,7 @@ namespace Course
         {
             int i = -1;
 
-            Conta Cadastro= new Conta();
+            Conta Cadastro = new Conta();
 
             //Menu principal
             while (i != 0)
@@ -29,7 +29,7 @@ namespace Course
                     Console.Clear();
                     Console.WriteLine("                  ***Welcome to the account bank program*** ");
                     Console.WriteLine("Abrindo");
-                    Cadastro.AbrirConta(); 
+                    Cadastro.AbrirConta();
                     Console.Clear();
                     Console.WriteLine(Cadastro);
                     Console.ReadKey();
@@ -37,8 +37,24 @@ namespace Course
                 else if (i == 2)
                 {
                     Console.Clear();
-                    Console.WriteLine("                  ***Welcome to the account bank program*** ");
-                    Console.WriteLine("Sacando");                    
+                    Console.WriteLine("                  ***Welcome to the account bank program*** ");                    
+
+                    if (Cadastro.NumConta == 0)
+                    {
+                        Console.WriteLine("Conta inexistente");
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("\nSaldo Atual: ");
+                        Console.WriteLine(Cadastro.Saldo);
+                        Cadastro.Sacar();
+
+                        Console.Clear();
+                        Console.WriteLine("\nSaldo Atual: ");
+                        Console.WriteLine(Cadastro.Saldo);
+                        
+                    }
                     Console.ReadKey();
                 }
                 else if (i == 3)
@@ -50,7 +66,7 @@ namespace Course
                     if (Cadastro.Saldo != 0)
                     {
                         Console.WriteLine(" ");
-                        Console.WriteLine("Deposito realizado!\nSaldo atual: ");                        
+                        Console.WriteLine("Deposito realizado!\nSaldo atual: ");
                         Console.WriteLine(Cadastro.Saldo);
                     }
 

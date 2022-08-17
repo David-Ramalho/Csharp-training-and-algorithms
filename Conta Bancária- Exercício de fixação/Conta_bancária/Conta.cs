@@ -10,8 +10,9 @@ namespace Conta_bancária
     internal class Conta
     {
         private string _nome;
-        public int NumConta { get; private set; } = 0;        
+        public int NumConta { get; private set; } = 0;
         public float Saldo { get; private set; }
+
 
 
         /*método get e set para Saldo, porém auto properties é usado!
@@ -68,12 +69,12 @@ namespace Conta_bancária
         public void Depositar()
         {
             Console.Clear();
-            Console.WriteLine("                  ***Welcome to the account bank program*** ");          
-            
+            Console.WriteLine("                  ***Welcome to the account bank program*** ");
+
             if (NumConta == 0)
             {
                 Console.WriteLine("Conta inexistente");
-                
+
             }
             else
             {
@@ -84,7 +85,7 @@ namespace Conta_bancária
                 {
                     Saldo = Saldo + valor;
                     //A expressão abaixo seria usada caso o metodo get e set fosse implementado.
-                   // Saldo1 = valor;
+                    // Saldo1 = valor;
 
                 }
                 else
@@ -95,7 +96,49 @@ namespace Conta_bancária
 
 
             }
-        } 
+        }
+
+        public void Sacar()
+        {
+            Console.Clear();
+            Console.WriteLine("                  ***Welcome to the account bank program*** ");
+
+            Console.WriteLine("\nQUal o valor do Saque? ");
+            float saque = float.Parse(Console.ReadLine());
+            float Cheque = -1000;
+            float emprestimo=0;
+            emprestimo= Saldo - saque;
+
+            // I will improve the logic, so far is not working properly
+            if (saque == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("Valor 0");
+            }
+            else if (saque >= emprestimo)
+            {
+                Console.Clear();
+                Console.WriteLine("O valor do Saque é maior que o saldo.\n cheque especial em uso");
+                Saldo = Saldo - saque;
+                emprestimo = emprestimo + Saldo;
+            }
+
+            else if(emprestimo <Cheque)
+            {
+                Console.Clear();
+                Console.WriteLine("Sem limite no Cheque Especial");
+            }
+
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Sacando");
+                Saldo = Saldo - saque;
+
+            }
+            Console.WriteLine("Atualizando Saldo");
+            Thread.Sleep(3000);
+        }
 
         //formatação
         public override string ToString()
