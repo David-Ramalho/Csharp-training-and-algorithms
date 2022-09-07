@@ -1,0 +1,14 @@
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\bin\Debug\netcoreapp3.1\Date_time.exe
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\bin\Debug\netcoreapp3.1\Date_time.deps.json
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\bin\Debug\netcoreapp3.1\Date_time.runtimeconfig.json
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\bin\Debug\netcoreapp3.1\Date_time.runtimeconfig.dev.json
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\bin\Debug\netcoreapp3.1\Date_time.dll
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\bin\Debug\netcoreapp3.1\Date_time.pdb
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.csproj.AssemblyReference.cache
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.AssemblyInfoInputs.cache
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.AssemblyInfo.cs
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.dll
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.pdb
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Special topics-1\Date&time\Date_time\obj\Debug\netcoreapp3.1\Date_time.genruntimeconfig.cache
