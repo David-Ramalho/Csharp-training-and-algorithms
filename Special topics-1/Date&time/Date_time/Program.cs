@@ -24,6 +24,24 @@ namespace Date_time
             Console.WriteLine("utcnow: " + d4);
             Console.WriteLine("d5: " + d5);
             Console.WriteLine("d6: " + d6);
+            Console.WriteLine("\n");
+            
+
+            TimeSpan t1 = new TimeSpan(10, 15, 20);
+            Console.WriteLine(t1);
+            Console.WriteLine(t1.Ticks);
+
+            TimeSpan t2 = new TimeSpan();
+            TimeSpan t3 = new TimeSpan(90000000l);
+            TimeSpan t4 = new TimeSpan(5,2,11,21);
+
+
+            Console.WriteLine(t3);
+            Console.WriteLine(t4);
+
+            TimeSpan t5 = TimeSpan.FromDays(2.9);
+
+            Console.WriteLine(t5);
 
         }
     }
