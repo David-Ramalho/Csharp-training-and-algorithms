@@ -17,6 +17,9 @@ namespace ConsoleApp1
 
 
             Console.WriteLine(order);
+            string txt = OrderStatus.PendingPayment.ToString();
+            OrderStatus os = Enum.Parse<OrderStatus>("Shipped");
+            Console.WriteLine(os);
         }
     }
 }

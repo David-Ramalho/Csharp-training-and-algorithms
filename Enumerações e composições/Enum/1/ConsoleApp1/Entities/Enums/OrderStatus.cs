@@ -8,7 +8,9 @@ namespace ConsoleApp1.Entities.Enums
     {
         PendingPayment = 0,
         Processing = 1,
-        Sipped = 2,
+        Shipped = 2,
         Delivered = 3
     }
+    
+   
 }
