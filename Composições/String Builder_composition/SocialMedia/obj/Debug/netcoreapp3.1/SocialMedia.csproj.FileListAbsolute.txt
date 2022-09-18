@@ -1,0 +1,14 @@
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\bin\Debug\netcoreapp3.1\SocialMedia.exe
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\bin\Debug\netcoreapp3.1\SocialMedia.deps.json
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\bin\Debug\netcoreapp3.1\SocialMedia.runtimeconfig.json
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\bin\Debug\netcoreapp3.1\SocialMedia.runtimeconfig.dev.json
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\bin\Debug\netcoreapp3.1\SocialMedia.dll
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\bin\Debug\netcoreapp3.1\SocialMedia.pdb
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.csproj.AssemblyReference.cache
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.AssemblyInfoInputs.cache
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.AssemblyInfo.cs
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.dll
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.pdb
+C:\Users\David\Documents\GIT\Csharp-training-and-algorithms\Composições\String Builder_composition\SocialMedia\obj\Debug\netcoreapp3.1\SocialMedia.genruntimeconfig.cache
