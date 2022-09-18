@@ -1,6 +1,7 @@
 ﻿using System;
 using ConsoleApp1.Entities;
 using ConsoleApp1.Entities.Enums;
+using System.Globalization;
 
 namespace ConsoleApp1
 {
@@ -47,7 +48,7 @@ namespace ConsoleApp1
                        int c = j + 1;
                         Console.WriteLine("Enter "+c+" contract data:");
                         Console.WriteLine("Date(DD/MM/YYYY): ");
-                        DateTime date = DateTime.Parse(Console.ReadLine());
+                        DateTime date = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
                         Console.WriteLine("Value per hour: ");
                         double valuePerhour = double.Parse(Console.ReadLine());
                         Console.WriteLine("Duration(hours): ");
