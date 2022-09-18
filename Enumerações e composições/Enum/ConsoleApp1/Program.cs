@@ -32,18 +32,45 @@ namespace ConsoleApp1
                     Console.WriteLine("Base Salary: ");
                     double baseSalary = double.Parse(Console.ReadLine());
 
+                    Department dept = new Department(dptName);
+                    Worker worker = new Worker(name, level, baseSalary, dept);
                 }
 
                 else if (i == 2)
                 {
                     Console.Clear();
-                    Console.WriteLine("Adding contracts");
+                    Console.WriteLine("How many constracts will be add?");
+                    int n = int.Parse(Console.ReadLine());
+
+                    for (int j = 0; j < n; j++)
+                    {
+                       int c = j + 1;
+                        Console.WriteLine("Enter "+c+" contract data:");
+                        Console.WriteLine("Date(DD/MM/YYYY): ");
+                        DateTime date = DateTime.Parse(Console.ReadLine());
+                        Console.WriteLine("Value per hour: ");
+                        double valuePerhour = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Duration(hours): ");
+                        int hours = int.Parse(Console.ReadLine());
+
+                        HourContract contract = new HourContract(date, valuePerhour, hours);
+
+                        Worker worker = new Worker();
+                        worker.AddContract(contract);
+                    }
 
                 }
                 else if (i == 3)
                 {
                     Console.Clear();
-                    Console.WriteLine("Calculating income");
+                    Console.WriteLine("Enter month and year to calculate income(MM/YYYY):");
+                    string MandY= Console.ReadLine();
+                    int month= int.Parse(MandY.Substring(0,2));
+                    int year = int.Parse(MandY.Substring(3));
+
+                    Worker worker = new Worker();
+                    Console.WriteLine("Work info:" + worker);
+                    Console.WriteLine("Income for :" + MandY+"worker.income(year, month");
 
                 }
                 else if (i == 0)
