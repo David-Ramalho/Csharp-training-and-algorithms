@@ -11,6 +11,10 @@ namespace ConsoleApp1
         {
             int i = -1;
             Console.Clear();
+            Department dept = new Department();
+            Worker worker = new Worker();
+            HourContract contract = new HourContract();
+
             while (i != 0)
             {
                 Console.Clear();
@@ -33,8 +37,8 @@ namespace ConsoleApp1
                     Console.WriteLine("Base Salary: ");
                     double baseSalary = double.Parse(Console.ReadLine());
 
-                    Department dept = new Department(dptName);
-                    Worker worker = new Worker(name, level, baseSalary, dept);
+                    dept = new Department(dptName);
+                    worker = new Worker(name, level, baseSalary, dept);
                 }
 
                 else if (i == 2)
@@ -45,8 +49,8 @@ namespace ConsoleApp1
 
                     for (int j = 0; j < n; j++)
                     {
-                       int c = j + 1;
-                        Console.WriteLine("Enter "+c+" contract data:");
+                        int c = j + 1;
+                        Console.WriteLine("Enter " + c + " contract data:");
                         Console.WriteLine("Date(DD/MM/YYYY): ");
                         DateTime date = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
                         Console.WriteLine("Value per hour: ");
@@ -54,9 +58,7 @@ namespace ConsoleApp1
                         Console.WriteLine("Duration(hours): ");
                         int hours = int.Parse(Console.ReadLine());
 
-                        HourContract contract = new HourContract(date, valuePerhour, hours);
-
-                        Worker worker = new Worker();
+                        contract = new HourContract(date, valuePerhour, hours);                         
                         worker.AddContract(contract);
                     }
 
@@ -65,13 +67,12 @@ namespace ConsoleApp1
                 {
                     Console.Clear();
                     Console.WriteLine("Enter month and year to calculate income(MM/YYYY):");
-                    string MandY= Console.ReadLine();
-                    int month= int.Parse(MandY.Substring(0,2));
+                    string MandY = Console.ReadLine();
+                    int month = int.Parse(MandY.Substring(0, 2));
                     int year = int.Parse(MandY.Substring(3));
-
-                    Worker worker = new Worker();
-                    Console.WriteLine("Work info:" + worker);
-                    Console.WriteLine("Income for :" + MandY+"worker.income(year, month");
+                    
+                    Console.WriteLine("Work info: " + worker);
+                    Console.WriteLine("Income for " + MandY + ": " + worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture));
 
                 }
                 else if (i == 0)

@@ -50,7 +50,19 @@ namespace ConsoleApp1.Entities
                 }
             return sum;
             }
+
+        public override string ToString()
+        {
+            return "\nName: " + Name 
+                +                
+                "\nDepartment: " + Department.Name
+                +
+                "\nbase wage: " + BaseSalary
+                +                
+                "\nLevel: " + Level
+                ;
         }
+    }
 
     }
 
