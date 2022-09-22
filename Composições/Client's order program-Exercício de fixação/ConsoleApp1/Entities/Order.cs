@@ -12,24 +12,29 @@ namespace ConsoleApp1.Entities
         public Client Client { get; set; }
         public List<OrderItem> Produtos { get; set; } = new List<OrderItem>();
 
-        public Order(DateTime moment, OrderStatus status)
+        public Order(DateTime moment, OrderStatus status, Client Client)
         {
             Moment = moment;
             Status = status;
         }
 
-        public void AddItem(OrderItem item)
+        public void AddItem(OrderItem produto)
         {
-
+            Produtos.Add(produto);
         }
-        public void RemoveItem(OrderItem item)
+        public void RemoveItem(OrderItem produto)
         {
-
+            Produtos.Remove(produto);
         }
 
         public double Total ()
         {
-
+            double sum = 0.0;
+            foreach(OrderItem produto in Produtos)
+            {
+                sum += produto.SubTotal();
+            }
+            return sum;
         }
     }
 }
