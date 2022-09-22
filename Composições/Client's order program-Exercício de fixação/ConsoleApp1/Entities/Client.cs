@@ -4,10 +4,17 @@ using System.Text;
 
 namespace ConsoleApp1.Entities
 {
-     class Client
+    class Client
     {
         public string Name { get; set; }
-        public string Email{ get; set; }
+        public string Email { get; set; }
         public DateTime BirthDate { get; set; }
+
+        public Client(string name, string email, DateTime birthDate)
+        {
+            Name = name;
+            Email = email;
+            BirthDate = birthDate;
+        }
     }
 }
