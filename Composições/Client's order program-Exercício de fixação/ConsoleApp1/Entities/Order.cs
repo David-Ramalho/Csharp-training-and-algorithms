@@ -16,6 +16,7 @@ namespace ConsoleApp1.Entities
         {
             Moment = moment;
             Status = status;
+            this.Client = Client;
         }
 
         public void AddItem(OrderItem produto)
@@ -36,5 +37,7 @@ namespace ConsoleApp1.Entities
             }
             return sum;
         }
+
+
     }
 }
