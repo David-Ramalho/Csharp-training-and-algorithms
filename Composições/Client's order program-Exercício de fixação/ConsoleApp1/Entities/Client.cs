@@ -21,7 +21,7 @@ namespace ConsoleApp1.Entities
         {
             return Name
                  + ", ("
-                 + BirthDate.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture)
+                 + BirthDate.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)
                  + ") - "
                  + Email;
         }
