@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Globalization;
 
 namespace ConsoleApp1.Entities
 {
@@ -21,7 +21,7 @@ namespace ConsoleApp1.Entities
         {
             return Name
                  + ", ("
-                 + BirthDate.ToString("dd/MM/yyyy")
+                 + BirthDate.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture)
                  + ") - "
                  + Email;
         }
