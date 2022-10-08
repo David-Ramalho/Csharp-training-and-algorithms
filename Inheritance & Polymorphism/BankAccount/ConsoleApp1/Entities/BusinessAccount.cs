@@ -14,7 +14,18 @@ namespace ConsoleApp1.Entities
             LoanLimit = loanLimit;
         }
 
+        public void Loan(double amount)
+        {
+            if (amount <= LoanLimit)
+            {
+                Balance += amount;
+            }
+            else
+            {
+                Console.WriteLine("Not enough limit");
+            }
+
+        }
 
     }
-
 }
