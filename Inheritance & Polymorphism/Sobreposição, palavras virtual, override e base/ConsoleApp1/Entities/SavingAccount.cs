@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1.Entities
 {
-    class SavingAccount : Account
+     class SavingAccount : Account
     {
         public double InterestRate { get; protected set; }
 
@@ -22,7 +22,7 @@ namespace ConsoleApp1.Entities
             Balance += Balance * InterestRate;
         }
 
-        public override void Withdraw(double amount)
+        public sealed override void Withdraw(double amount)
         {
            base.Withdraw(amount);
             Balance -= 2.0;
