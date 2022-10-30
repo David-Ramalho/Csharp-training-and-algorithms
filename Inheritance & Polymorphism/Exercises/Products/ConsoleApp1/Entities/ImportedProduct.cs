@@ -17,5 +17,10 @@ namespace ConsoleApp1.Entities
         {
             CustomFee = customFee;
         }
+
+        public override double PriceTag()
+        {
+            return base.PriceTag() + CustomFee;
+        }
     }
 }
