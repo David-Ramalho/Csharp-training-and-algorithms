@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Globalization;
+using System.Collections.Generic;
+using ConsoleApp1.Entities;
 
 namespace ConsoleApp1
 {
@@ -6,7 +9,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }

@@ -17,6 +17,11 @@ namespace ConsoleApp1.Entities
         {
             ManufactureDate = manufactureDate;
         }
+
+        public override double PriceTag()
+        {
+            return base.PriceTag();
+        }
     }
 
 }
