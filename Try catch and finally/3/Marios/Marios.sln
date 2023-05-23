@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marios", "Marios.csproj", "{A5039686-A182-4842-B3DE-9FEF45517D30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5039686-A182-4842-B3DE-9FEF45517D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5039686-A182-4842-B3DE-9FEF45517D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5039686-A182-4842-B3DE-9FEF45517D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5039686-A182-4842-B3DE-9FEF45517D30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72B2817C-4165-4F55-820F-0B1E15D0C172}
+	EndGlobalSection
+EndGlobal
