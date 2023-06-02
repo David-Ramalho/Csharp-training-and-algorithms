@@ -14,3 +14,7 @@ Console.Write("Withdraw limit: ");
 double withdrawLimit = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 Account acc = new Account(number, holder, balance, withdrawLimit);
+
+Console.WriteLine();
+Console.Write("Enter amount for withdraw: ");
+double amount = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
