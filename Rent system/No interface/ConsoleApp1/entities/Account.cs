@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
+﻿using ConsoleApp1.Entities.Exceptions;
 
 namespace ConsoleApp1.entities
 {
@@ -8,27 +6,38 @@ namespace ConsoleApp1.entities
 	{
 		public int Number { get; set; }
 		public string Holder { get; set; }
-		private double Balance { get; set; }
-		public double WithDrawLimit { get; set; }
+		public double Balance { get; set; }
+		public double WithdrawLimit { get; set; }
 
-		public Account(int number, string holder, double balance, double withDrawLimit)
+		public Account()
+		{
+		}
 
+		public Account(int number, string holder, double balance, double withdrawLimit)
 		{
 			Number = number;
 			Holder = holder;
 			Balance = balance;
-			WithDrawLimit = withDrawLimit;
+			WithdrawLimit = withdrawLimit;
 		}
 
-		public double deposit(double amount)
+		public void Deposit(double amount)
 		{
-			return Balance += amount;
+			Balance += amount;
 		}
 
-		public double withDraw(double amount)
+		public void Withdraw(double amount)
 		{
-			return Balance -= amount;
+			if (amount > WithdrawLimit)
+			{
+				throw new DomainException("The amount exceeds withdraw limit");
+			}
+			if (amount > Balance)
+			{
+				throw new DomainException("Not enough balance");
+			}
+
+			Balance -= amount;
 		}
 	}
 }
-
